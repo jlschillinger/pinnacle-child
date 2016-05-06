@@ -1,0 +1,29 @@
+/*
+ Theme Name:   Pinnacle Child
+ Theme URI:    http://www.kadencethemes.com/product/pinnacle-free-theme/
+ Description:  Pinnacle Child Theme
+ Author:       Jessica Schillinger, Wyoming Survey & Analysis Center
+ Author URI:   http://uwyo.edu/wysac
+ Template:     pinnacle
+ Version:      1.0.0 based on Pinnacle v1.3.7
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         responsive-layout, two-columns, one-column, custom-colors, custom-header, custom-menu, featured-images, translation-ready, theme-options, photoblogging
+ Text Domain:  pinnacle-child
+*/
+
+/* * * * * * * * * * * * * *
+THEME OPTIONS
+
+Most of the formatting for typography, colors, etc. are included in Appearance/Theme Options via the theme's built-in theme editor.
+
+* * * * * * * * * * * * * */
+
+/* Remove the lines under some headers  */
+.home-iconmenu .home-icon-item h4:after {
+  display:none;
+}
+
+.hometitle:after, .sectiontitle:after, .widget-title:after {
+  display:none;
+}
